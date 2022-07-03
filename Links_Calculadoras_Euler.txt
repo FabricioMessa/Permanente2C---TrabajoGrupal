@@ -1,0 +1,3 @@
+https://mathtools.lagrida.com/arithmetic/euler_totient.html  <- link para primer programa para hallar phi
+
+http://www.javascripter.net/math/calculators/eulertotientfunction.htm  <- link para segundo programa para hallar phi
