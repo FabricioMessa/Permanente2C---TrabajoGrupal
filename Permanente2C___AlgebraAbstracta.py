@@ -19,6 +19,21 @@ def inversa(a,b):
     if m == 1:
       a = modulo(a, b)
     return a
+#=================================================
+def euclides(a, b):
+    if b == 0:
+        return a
+    return euclides(b, a % b)
+
+def phi(n):
+    r = 0
+    for i in range(n):
+        d = euclides(i, n)
+        if d == 1:
+            r = r + 1
+    return r
+
+print(phi(999630013489))
 
 #print(inversa(7, 1.3690042483646612e+109))
 m = pow(747120213790,755383642193,999630013489)
